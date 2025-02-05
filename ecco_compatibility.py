@@ -193,8 +193,8 @@ def ecco_dataset(dataset: str, start: dt.date = None, end: dt.date = None, timin
     return array
 
 
-def ecco_variable(variable: str, start: dt.date | None = None,
-                  end: dt.date | None = None, timing: str = 'None') -> xr.DataArray:
+def ecco_variable(variable: str, start: dt.date | str = None,
+                  end: dt.date | str = None, timing: str = 'None') -> xr.DataArray:
     if variable not in all_variables:
         raise ValueError(str(variable) + ' is not an ECCO variable')
     timing = adjust_timing(variable, timing)

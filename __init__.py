@@ -1,2 +1,2 @@
-from .widget import plot_select
-from .widget import plot_utility
+from utility import plot_select
+from utility import plot_utility
