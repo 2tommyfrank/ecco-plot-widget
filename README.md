@@ -1,4 +1,4 @@
-# ECCOv4 plotting utility with Jupyter widgets
+# [ECCOv4](https://github.com/ECCO-GROUP/ECCOv4-py) plotting utility with Jupyter widgets
 
 The `plot_select(c, u, v)` function produces widgets to make a customizable
 plot of up to three xarray DataArrays on one figure. The `c` array gets plotted

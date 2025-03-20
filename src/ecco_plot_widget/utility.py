@@ -8,9 +8,9 @@ from IPython.display import display
 from warnings import filterwarnings
 filterwarnings("ignore", category=FutureWarning)
 
-from widget import EccoSelector, Stage, make_adjusters
-from plot import plot_from_widgets
-from ecco_compatibility import ecco_dataset, ecco_variable
+from .widget import EccoSelector, Stage, make_adjusters
+from .plot import plot_from_widgets
+from .ecco_compatibility import ecco_dataset, ecco_variable
 
 geometry = ecco_dataset('GEOMETRY_LLC0090GRID')
 grid = ecco.get_llc_grid(geometry)

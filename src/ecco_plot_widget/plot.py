@@ -7,7 +7,7 @@ import ipywidgets as wg
 from IPython.display import display
 from math import ceil
 
-from widget import land_mask
+from .widget import land_mask
 
 # Used to select i, j, i_g, and j_g for quiver plots to space out data
 skip = range(2, 88, 5)
